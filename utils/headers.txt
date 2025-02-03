@@ -1,0 +1,7 @@
+content-type: application, json. Specifies that the request body is formatted as json
+
+Content-Encoding: gzip. Indicates the response is compressed using gzip
+
+Date: The date and time when the server generated the response
+
+Accept: Indicates that the client expects a JSON response
