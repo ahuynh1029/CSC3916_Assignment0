@@ -1,14 +1,14 @@
 headers.txt
 
-Vary:Origin
+Vary:Origin - Instructs caches to store multiple versions of the response based on the origin request header
 Vary: X-Origin
-Vary: Referer
-Content-Type: application/json; charset=UTF-8
-Content-Encoding: gzip
-Date: Mon, 03 Feb 2025 05:02:16 GMT
-Server: ESF
-X-XSS-Protection: 0
-X-Frane-Options:SAMEORIGIN
-X-Content-Type-Options: nosniff
-Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
-Transfer-Encoding: chunked
+Vary: Referer - Indicates the response may vary based on the request header
+Content-Type: application/json; charset=UTF-8 - Specifies the type of response content
+Content-Encoding: gzip - The data compressed using the gzip encoding
+Date: Mon, 03 Feb 2025 05:02:16 GMT - The date the response of the server is generated
+Server: ESF - Identifiers the web server software used
+X-XSS-Protection: 0 - Turns off a specific browser security features related to scripting
+X-Frane-Options:SAMEORIGIN - Prevents other websites from displaying this content in a frame
+X-Content-Type-Options: nosniff 
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000 - Indicates the alternative ways to connect to the server
+Transfer-Encoding: chunked - The data sent in parts
