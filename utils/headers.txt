@@ -1,7 +1,14 @@
-content-type: application, json. Specifies that the request body is formatted as json
+headers.txt
 
-Content-Encoding: gzip. Indicates the response is compressed using gzip
-
-Date: The date and time when the server generated the response
-
-Accept: Indicates that the client expects a JSON response
+Vary:Origin
+Vary: X-Origin
+Vary: Referer
+Content-Type: application/json; charset=UTF-8
+Content-Encoding: gzip
+Date: Mon, 03 Feb 2025 05:02:16 GMT
+Server: ESF
+X-XSS-Protection: 0
+X-Frane-Options:SAMEORIGIN
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+Transfer-Encoding: chunked
